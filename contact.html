@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Contact - Flavian</title>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="profile">
+      <img src="img/profil.jpg" alt="Photo de Flavian">
+      <div class="info">
+        <h1>Flavian</h1>
+        <p>Bachelor a Enigma School</p>
+        <p>Lille, France · <a href="mailto:flavian.jost@gmail.com">flavian.jost@gmail.com</a></p>
+        <a href="https://www.linkedin.com/in/flavian-jost-b00b231a3/" target="_blank" class="linkedin">LinkedIn</a>
+      </div>
+    </div>
+    <nav class="menu">
+      <a href="index.html">Accueil</a>
+      <a href="apropos.html">À propos</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <!-- FORMULAIRE -->
+  <main class="main-content">
+    <section class="form-box">
+      <h3>Contactez-moi</h3>
+      <form method="POST" action="contact.php">
+        <input type="text" name="nom" placeholder="Nom" required>
+        <input type="text" name="prenom" placeholder="Prénom" required>
+        <input type="email" name="email" placeholder="Adresse mail" required>
+        <input type="text" name="profession" placeholder="Profession">
+        <textarea placeholder="Votre message" name="message" rows="5"></textarea>
+        <div class="buttons">
+          <button type="submit">Valider</button>
+          <button type="reset">Effacer</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>@ 2025 Flavian Jost - CV en ligne · Fait avec HTML & CSS</p>
+    <a href="contact.html">Contactez-moi</a> ·
+    <a href="https://www.linkedin.com/in/flavian-jost-b00b231a3/" target="_blank">Trouvez-moi également sur LinkedIn</a>
+  </footer>
+</body>
+</html>
